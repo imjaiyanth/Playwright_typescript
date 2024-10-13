@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test"
+    "test": "playwright test",
+    "test:single": "npx playwright test Login.test.ts --project=Chrome"
+
   },
   "keywords": [],
   "author": "",
